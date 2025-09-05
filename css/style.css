@@ -1,0 +1,24 @@
+h2 {
+    position: relative;
+}
+
+span {
+    position: absolute;
+    animation: down;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes down {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 10px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
